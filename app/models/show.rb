@@ -5,4 +5,6 @@ class Show < ActiveRecord::Base
   end
   def self.most_popular_show
     self.name.where.maximum(:rating)
+  end
 end
+
