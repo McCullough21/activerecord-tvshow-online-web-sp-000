@@ -7,4 +7,3 @@ class Show < ActiveRecord::Base
     self.name.where.maximum(:rating)
   end
 end
-
