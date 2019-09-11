@@ -5,6 +5,7 @@ def change
     s.string :network
     s.string :day
     s.integer :rating
+  end
 end
 
 
